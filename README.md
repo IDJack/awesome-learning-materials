@@ -12,9 +12,15 @@
 
 ### Rust
 
+- 入门
+  - 视频：[Rust编程语言入门教程](https://www.bilibili.com/video/BV1hp4y1k7SV)
+
 
 
 ### Go
+
+- 入门
+  - 视频：[Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
 
 
 
@@ -26,6 +32,27 @@
 
 
 
+## Java SE开发
+
+### Guava
+
+
+
+### 日志
+
+
+
+
+
+### Maven
+
+
+
+### Gradle
+
+- 入门
+  - 视频：[【尚硅谷】Gradle教程入门到进阶（从gradle安装到项目实战）](https://www.bilibili.com/video/BV1yT41137Y7)
+
 
 
 ## Java服务端开发
@@ -34,7 +61,7 @@
 
 
 
-### Springboot
+### SpringBoot
 
 
 
@@ -68,7 +95,11 @@
 
 
 
-### RPC
+### Kafka
+
+
+
+### RocketMQ
 
 
 
@@ -91,6 +122,10 @@
 
 
 ### Elasticsearch
+
+- 入门
+  - 视频：[【尚硅谷】ElasticSearch教程入门到精通（基于ELK技术栈elasticsearch 7.x+8.x新特性）](https://www.bilibili.com/video/BV1hh411D7sb)
+  - 
 
 
 
@@ -155,6 +190,12 @@
 
 
 ### 深度学习
+
+
+
+
+
+## 架构
 
 
 
