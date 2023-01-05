@@ -4,11 +4,15 @@
 
 ### Java
 
+- 虚拟机和字节码
+  - 
+- 多线程
+
 
 
 ### C
 
-
+- 书《Linux C一站式编程》，豆瓣评分9.0
 
 ### Rust
 
@@ -74,6 +78,19 @@
 
 
 ### Netty
+
+
+
+### Nginx
+
+- 入门
+  - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
+
+
+
+### OpenResty
+
+- 极客时间：[OpenResty 从入门到实战](https://time.geekbang.org/column/intro/100028301?tab=catalog)
 
 
 
