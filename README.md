@@ -117,7 +117,7 @@
 
 ### Hadoop
 
-
+- 《Hadoop》权威指南，豆瓣评分7.7
 
 ### Spark
 
@@ -128,9 +128,11 @@
 
 ### Zookeeper
 
-
+- 《从Paxos到Zookeeper》，豆瓣评分7.8
 
 ### Kafka
+
+- 《深入理解Kafka：核心设计与实践原理》，豆瓣评分8.8
 
 
 
@@ -142,27 +144,37 @@
 
 ### SQL
 
+- 极客时间：[SQL 必知必会](https://time.geekbang.org/column/intro/100029501?tab=catalog)
+
 
 
 ### MySQL
 
+- 《MySQL技术内幕》 豆瓣评分8.3
+- 《高性能MySQL》 豆瓣评分9.4
+- 《MySQL是怎样运行的》，豆瓣评分9.5
+
+- 极客时间：[MySQL 实战 45 讲](https://time.geekbang.org/column/intro/100020801?tab=catalog)
+
 
 
 ### HBase
+
+- 《HBase原理与实践》，豆瓣评分9.0
 
 
 
 ### Redis
 
 - 极客时间：[Redis 核心技术与实战](https://time.geekbang.org/column/intro/100056701?tab=catalog)
+- 《Redis设计与实现》，豆瓣评分8.6
+- 《Redis开发与运维》，豆瓣评分9.0
 
 
 
 ### Elasticsearch
 
-- 入门
-  - 视频：[【尚硅谷】ElasticSearch教程入门到精通（基于ELK技术栈elasticsearch 7.x+8.x新特性）](https://www.bilibili.com/video/BV1hh411D7sb)
-  - 
+- 《Elasticsearch实战》，豆瓣评分7.3
 
 
 
