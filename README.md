@@ -2,23 +2,10 @@
 
 ## 编程语言
 
-### Java
-
-- 虚拟机和字节码
-  - 《深入理解Java虚拟机》，豆瓣评分9.4
-  - 《深入理解JVM字节码》，豆瓣评分8.2
-  - 极客时间：[深入拆解 Java 虚拟机](https://time.geekbang.org/column/intro/100010301?tab=catalog)
-- 多线程
-  - 《Java并发编程实战》，豆瓣评分9.0
-  - 极客时间：[Java 并发编程实战](https://time.geekbang.org/column/intro/100023901?tab=catalog)
-
-
-- 其他
-  - 《Effective Java》，豆瓣评分9.6
-
 ### C
 
 - 《Linux C一站式编程》，豆瓣评分9.0
+- 极客时间：[深入 C 语言和程序运行原理](https://time.geekbang.org/column/intro/100100701?tab=catalog)
 
 ### Rust
 
@@ -42,7 +29,26 @@
 
 - 视频：[尚硅谷大数据技术之Scala入门到精通教程](https://www.bilibili.com/video/BV1Xh411S7bP)
 
+## Java
 
+### 虚拟机和字节码
+
+- 《深入理解Java虚拟机》，豆瓣评分9.4
+- 《深入理解JVM字节码》，豆瓣评分8.2
+- 极客时间：[深入拆解 Java 虚拟机](https://time.geekbang.org/column/intro/100010301?tab=catalog)
+
+### 多线程
+
+- 《Java并发编程实战》，豆瓣评分9.0
+- 极客时间：[Java 并发编程实战](https://time.geekbang.org/column/intro/100023901?tab=catalog)
+
+### 其他
+
+- 极客时间：[Java 业务开发常见错误 100 例](https://time.geekbang.org/column/intro/100047701?tab=catalog)
+
+- 《Effective Java》，豆瓣评分9.6
+
+  
 
 ## Java服务端开发
 
@@ -98,10 +104,6 @@
 
 - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
 
-
-
-### OpenResty
-
 - 极客时间：[OpenResty 从入门到实战](https://time.geekbang.org/column/intro/100028301?tab=catalog)
 
 
@@ -113,7 +115,7 @@
 - 极客时间：[分布式协议与算法实战](https://time.geekbang.org/column/intro/100046101?tab=catalog)
 - 极客时间：[分布式技术原理与算法解析](https://time.geekbang.org/column/intro/100036401?tab=catalog)
 
-
+- MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
 ### Hadoop
 
@@ -228,21 +230,46 @@
 
 ### 网络
 
+- 极客时间：[趣谈网络协议](https://time.geekbang.org/column/intro/100007101?tab=catalog)
 
 
-### 操作系统
+
+### 操作系统和计算机组成原理
+
+- 极客时间：[计算机基础实战课](https://time.geekbang.org/column/intro/100117801?tab=catalog)
+- 极客时间：[深入浅出计算机组成原理](https://time.geekbang.org/column/intro/100026001?tab=catalog)
+- 极客时间：[操作系统实战 45 讲](https://time.geekbang.org/column/intro/100078401?tab=catalog)
+- 极客时间：[趣谈 Linux 操作系统](https://time.geekbang.org/column/intro/100024701?tab=catalog)
+- 极客时间：[编程高手必学的内存知识](https://time.geekbang.org/column/intro/100094901?tab=catalog)
+- 
+
+
+
+### 编译原理
+
+- 极客时间：[编译原理之美](https://time.geekbang.org/column/intro/100034101?tab=catalog)
+- 极客时间：[编译原理实战课](https://time.geekbang.org/column/intro/100052801?tab=catalog)
+- 极客时间：[手把手带你写一门编程语言](https://time.geekbang.org/column/intro/100085201?tab=catalog)
+
+
 
 
 
 ## 人工智能
 
+### AI中的数学基础
+
+- 视频：[线性代数的本质](https://www.bilibili.com/video/BV1ib411t7YR) 
+
+
+
 ### 数据分析
 
-
+- 极客时间：[数据分析实战 45 讲](https://time.geekbang.org/column/intro/100021701?tab=catalog)
 
 ### 机器学习
 
-
+- 《机器学习-周志华》，豆瓣评分8.6
 
 ### 深度学习
 
@@ -250,16 +277,14 @@
 
 ### 推荐算法
 
+- 《推荐系统实战》，豆瓣评分8.1
+
 
 
 ## 架构
 
 - 《凤凰架构》，豆瓣评分9.3，http://icyfenix.cn/
 - 极客时间：[从 0 开始学架构](https://time.geekbang.org/column/intro/100006601?tab=catalog)
-
-
-
-
 
 
 
