@@ -176,7 +176,7 @@
 
 ### TiDB
 
-
+- 视频：[PingCAP课程中心](https://learn.pingcap.com/learner/course)
 
 
 
@@ -196,9 +196,13 @@
 
 ### 容器和docker
 
+- 极客时间：[容器实战高手课](https://time.geekbang.org/column/intro/100063801?tab=catalog)
+
 
 
 ### K8s
+
+- 《深入剖析Kubernetes》，豆瓣评分9.4，[极客时间电子版](https://time.geekbang.org/column/intro/100015201?tab=catalog)
 
 
 
@@ -228,15 +232,20 @@
 
 
 
+
+
 ### 深度学习
 
 
+
+### 推荐算法
 
 
 
 ## 架构
 
-
+- 《凤凰架构》，豆瓣评分9.3，http://icyfenix.cn/
+- 极客时间：[从 0 开始学架构](https://time.geekbang.org/column/intro/100006601?tab=catalog)
 
 
 
