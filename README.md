@@ -1,5 +1,21 @@
 # awesome-learning-materials
 
+## 前言
+
+学习新知识时，我一般会学习如下学习资料：
+
+1 豆瓣高分书籍，其中大于9分的都是特别好的书，8分以上的书也不错，8分以下的书，选择性读
+
+2 极客时间专栏，极客时间是IT领域很好的知识付费平台，有些课程物超所值
+
+3 官方文档资料，社区和github文档等
+
+4 B站播放量高的视频
+
+5 公开课
+
+6 论文
+
 ## 编程语言
 
 ### C
@@ -14,8 +30,6 @@
 
 - 极客时间：[陈天 · Rust 编程第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog)
 
-
-
 ### Go
 
 - 视频：[Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
@@ -23,7 +37,7 @@
 
 ### Python
 
-
+- [廖雪峰Python教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 ### Scala
 
@@ -46,6 +60,8 @@
 
 - 极客时间：[Java 业务开发常见错误 100 例](https://time.geekbang.org/column/intro/100047701?tab=catalog)
 
+- 极客时间：[深入剖析 Java 新特性](https://time.geekbang.org/column/intro/100097301?tab=catalog)
+
 - 《Effective Java》，豆瓣评分9.6
 
   
@@ -63,8 +79,10 @@
 ### SpringBoot
 
 - 视频：[【尚硅谷】SpringBoot2零基础入门教程](https://www.bilibili.com/video/BV19K4y1L7MT) 尚硅谷雷丰阳
+
 - 视频：[尚硅谷SpringBoot顶尖教程](https://www.bilibili.com/video/BV1gW411W76m) 尚硅谷雷丰阳
-- 
+
+  
 
 ### Spring Cloud
 
@@ -92,8 +110,6 @@
 
 
 
-## web服务器
-
 ### Tomcat & Jetty
 
 - 极客时间：[深入拆解 Tomcat & Jetty](https://time.geekbang.org/column/intro/100027701?tab=catalog)
@@ -103,6 +119,8 @@
 ### Nginx
 
 - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
+
+- 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
 
 - 极客时间：[OpenResty 从入门到实战](https://time.geekbang.org/column/intro/100028301?tab=catalog)
 
@@ -127,6 +145,10 @@
 - 极客时间：[Spark 性能调优实战](https://time.geekbang.org/column/intro/100073401?tab=catalog)
 
 
+
+### Flink
+
+- 《基于Apache Flink的流处理 : 流式应用基础、实现及操作》，豆瓣评分8.4
 
 ### Zookeeper
 
@@ -169,6 +191,7 @@
 ### Redis
 
 - 极客时间：[Redis 核心技术与实战](https://time.geekbang.org/column/intro/100056701?tab=catalog)
+- 极客时间：[Redis 源码剖析与实战](https://time.geekbang.org/column/intro/100084301?tab=catalog)
 - 《Redis设计与实现》，豆瓣评分8.6
 - 《Redis开发与运维》，豆瓣评分9.0
 
@@ -177,6 +200,7 @@
 ### Elasticsearch
 
 - 《Elasticsearch实战》，豆瓣评分7.3
+- 极客时间：[Elasticsearch 核心技术与实战](https://time.geekbang.org/course/intro/100030501?tab=catalog)
 
 
 
@@ -197,6 +221,8 @@
 ## Linux
 
 ### Linux使用
+
+- 极客时间：[Linux 性能优化实战](https://time.geekbang.org/column/intro/100020901?tab=catalog)
 
 
 
@@ -226,6 +252,9 @@
 
 ### 算法和数据结构
 
+- 极客时间：[数据结构与算法之美](https://time.geekbang.org/column/intro/100017301?tab=catalog)
+- 《算法导论》，豆瓣评分9.3
+
 
 
 ### 网络
@@ -241,7 +270,6 @@
 - 极客时间：[操作系统实战 45 讲](https://time.geekbang.org/column/intro/100078401?tab=catalog)
 - 极客时间：[趣谈 Linux 操作系统](https://time.geekbang.org/column/intro/100024701?tab=catalog)
 - 极客时间：[编程高手必学的内存知识](https://time.geekbang.org/column/intro/100094901?tab=catalog)
-- 
 
 
 
@@ -261,8 +289,6 @@
 
 - 视频：[线性代数的本质](https://www.bilibili.com/video/BV1ib411t7YR) 
 
-
-
 ### 数据分析
 
 - 极客时间：[数据分析实战 45 讲](https://time.geekbang.org/column/intro/100021701?tab=catalog)
@@ -273,6 +299,8 @@
 
 ### 深度学习
 
+- B站有吴恩达，李沐等人的深度学习课程
+
 
 
 ### 推荐算法
@@ -281,10 +309,13 @@
 
 
 
-## 架构
+## 架构和系统设计
+
+- 《数据密集型应用系统设计》，豆瓣评分9.6
 
 - 《凤凰架构》，豆瓣评分9.3，http://icyfenix.cn/
 - 极客时间：[从 0 开始学架构](https://time.geekbang.org/column/intro/100006601?tab=catalog)
+- 极客时间：[设计模式之美](https://time.geekbang.org/column/intro/100039001?tab=catalog)
 
 
 
