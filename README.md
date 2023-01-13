@@ -33,7 +33,7 @@
 ### Go
 
 - 视频：[Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
-- 极客时间：[Tony Bai · Go 语言第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog))
+- 极客时间：[Tony Bai · Go 语言第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog)
 
 ### Python
 
@@ -73,6 +73,7 @@
 - 《精通Spring 4.x》 豆瓣评分8.4
 - 《Spring揭秘》 豆瓣评分9.2
 - 视频：[尚硅谷Spring注解驱动教程(雷丰阳源码级讲解)](https://www.bilibili.com/video/BV1gW411W7wy)
+- spring文档：https://docs.spring.io/spring-framework/docs/current/reference/html/
 
 
 
@@ -82,9 +83,12 @@
 
 - 视频：[尚硅谷SpringBoot顶尖教程](https://www.bilibili.com/video/BV1gW411W76m) 尚硅谷雷丰阳
 
-  
+- springboot文档：https://docs.spring.io/spring-boot/docs/current/reference/html/
 
 ### Spring Cloud
+
+- springcloud文档：https://docs.spring.io/spring-cloud/docs/current/reference/html/
+- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 
 
 
@@ -318,4 +322,8 @@
 - 极客时间：[设计模式之美](https://time.geekbang.org/column/intro/100039001?tab=catalog)
 
 
+
+## 其他
+
+- 极客时间：[左耳听风](https://time.geekbang.org/column/intro/100002201?tab=catalog)
 
