@@ -73,7 +73,7 @@
 - 《精通Spring 4.x》 豆瓣评分8.4
 - 《Spring揭秘》 豆瓣评分9.2
 - 视频：[尚硅谷Spring注解驱动教程(雷丰阳源码级讲解)](https://www.bilibili.com/video/BV1gW411W7wy)
-- spring文档：https://docs.spring.io/spring-framework/docs/current/reference/html/
+- [spring文档](https://docs.spring.io/spring-framework/docs/current/reference/html/)
 
 
 
@@ -83,11 +83,11 @@
 
 - 视频：[尚硅谷SpringBoot顶尖教程](https://www.bilibili.com/video/BV1gW411W76m) 尚硅谷雷丰阳
 
-- springboot文档：https://docs.spring.io/spring-boot/docs/current/reference/html/
+- [springboot文档](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 
 ### Spring Cloud
 
-- springcloud文档：https://docs.spring.io/spring-cloud/docs/current/reference/html/
+- [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
 - 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 
 
@@ -192,11 +192,18 @@
 ### Redis
 
 - 极客时间：[Redis 核心技术与实战](https://time.geekbang.org/column/intro/100056701?tab=catalog)
+
 - 极客时间：[Redis 源码剖析与实战](https://time.geekbang.org/column/intro/100084301?tab=catalog)
+
 - 《Redis设计与实现》，豆瓣评分8.6
+
 - 《Redis开发与运维》，豆瓣评分9.0
 
+  
 
+### etcd
+
+- 极客时间：[etcd 实战课](https://time.geekbang.org/column/intro/100069901?tab=catalog)
 
 ### Elasticsearch
 
@@ -307,6 +314,7 @@
 ### 推荐算法
 
 - 《推荐系统实战》，豆瓣评分8.1
+- 极客时间：[深度学习推荐系统实战](https://time.geekbang.org/column/intro/100060801?tab=catalog)
 
 
 
@@ -323,4 +331,6 @@
 ## 其他
 
 - 极客时间：[左耳听风](https://time.geekbang.org/column/intro/100002201?tab=catalog)
+- 极客时间：[技术与商业案例解读](https://time.geekbang.org/column/intro/100001901?tab=catalog)
+- 极客时间：[说透芯片](https://time.geekbang.org/column/intro/100079201?tab=catalog)
 
