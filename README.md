@@ -249,7 +249,7 @@
 
 ### 云计算
 
-- 极客时间：[深入浅出云计算(https://time.geekbang.org/column/intro/100046901?tab=intro)
+- 极客时间：[深入浅出云计算](https://time.geekbang.org/column/intro/100046901?tab=intro)
 
 ## 容器和docker
 
