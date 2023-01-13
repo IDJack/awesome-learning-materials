@@ -64,6 +64,12 @@
 
 - 《Effective Java》，豆瓣评分9.6
 
+- 《Maven实战》，豆瓣评分8.2
+
+- Gradle：[【尚硅谷】Gradle教程入门到进阶（从gradle安装到项目实战）](https://www.bilibili.com/video/BV1yT41137Y7)
+
+  
+  
   
 
 ## 3 Java服务端开发
@@ -90,7 +96,7 @@
 - [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
 - 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 
-### dubbo
+### Dubbo
 
 - 极客时间：[Dubbo 源码剖析与实战](https://time.geekbang.org/column/intro/100312101?tab=catalog)
 
@@ -106,18 +112,6 @@
 
 
 
-### Maven
-
-- 《Maven实战》，豆瓣评分8.2
-
-
-
-### Gradle
-
-- 视频：[【尚硅谷】Gradle教程入门到进阶（从gradle安装到项目实战）](https://www.bilibili.com/video/BV1yT41137Y7)
-
-
-
 ### Tomcat & Jetty
 
 - 极客时间：[深入拆解 Tomcat & Jetty](https://time.geekbang.org/column/intro/100027701?tab=catalog)
@@ -128,6 +122,13 @@
 
 - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
 - 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
+
+
+
+### 监控和压测
+
+- 极客时间：[运维监控系统实战笔记](https://time.geekbang.org/column/intro/100522501?tab=catalog)
+- 极客时间：[全链路压测实战 30 讲](https://time.geekbang.org/column/intro/100093001?tab=catalog)
 
 
 
