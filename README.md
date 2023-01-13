@@ -92,6 +92,8 @@
 
 ### dubbo
 
+- 极客时间：[Dubbo 源码剖析与实战](https://time.geekbang.org/column/intro/100312101?tab=catalog)
+
 
 
 ### MyBatis
