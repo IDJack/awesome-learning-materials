@@ -90,6 +90,8 @@
 - [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
 - 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 
+### dubbo
+
 
 
 ### MyBatis
@@ -133,6 +135,8 @@
 
 - 极客时间：[分布式协议与算法实战](https://time.geekbang.org/column/intro/100046101?tab=catalog)
 - 极客时间：[分布式技术原理与算法解析](https://time.geekbang.org/column/intro/100036401?tab=catalog)
+
+- 极客时间：[大数据经典论文解读](https://time.geekbang.org/column/intro/100091101?tab=catalog)
 
 - MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
@@ -237,20 +241,22 @@
 ### Linux系统编程
 
 - 《Unix环境高级编程》，豆瓣评分9.7
-
 - 《Unix网络编程》一二卷，豆瓣评分9.5
 
 ## 云
 
-### 容器和docker
+### 云计算
+
+- 极客时间：[深入浅出云计算(https://time.geekbang.org/column/intro/100046901?tab=intro)
+
+## 容器和docker
 
 - 极客时间：[容器实战高手课](https://time.geekbang.org/column/intro/100063801?tab=catalog)
-
-
 
 ### K8s
 
 - 《深入剖析Kubernetes》，豆瓣评分9.4，[极客时间电子版](https://time.geekbang.org/column/intro/100015201?tab=catalog)
+- 极客时间：[Spring Boot 与 Kubernetes 云原生](https://time.geekbang.org/course/intro/100031401?tab=catalog)
 
 
 
@@ -268,6 +274,7 @@
 ### 网络
 
 - 极客时间：[趣谈网络协议](https://time.geekbang.org/column/intro/100007101?tab=catalog)
+- 极客时间：[网络编程实战](https://time.geekbang.org/column/intro/100032701?tab=catalog)
 
 
 
