@@ -123,10 +123,7 @@
 ### Nginx
 
 - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
-
 - 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
-
-- 极客时间：[OpenResty 从入门到实战](https://time.geekbang.org/column/intro/100028301?tab=catalog)
 
 
 
