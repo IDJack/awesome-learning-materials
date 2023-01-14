@@ -115,6 +115,7 @@
 ### 多线程
 
 - 《Java并发编程实战》，豆瓣评分9.0
+- 《Java并发实现原理：JDK源码剖析》，豆瓣评分8.0
 - 极客时间：[Java 并发编程实战](https://time.geekbang.org/column/intro/100023901?tab=catalog)
 
 ### 其他
