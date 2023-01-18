@@ -13,7 +13,7 @@
 - [3 Java服务端开发](#3-java服务端开发)
   - [Spring](#spring)
   - [SpringBoot](#springboot)
-  - [Spring Cloud](#spring-cloud)
+  - [微服务和Spring Cloud](#微服务和spring-cloud)
   - [Dubbo](#dubbo)
   - [MyBatis](#mybatis)
   - [Netty](#netty)
@@ -153,10 +153,13 @@
 
 - [springboot文档](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 
-### Spring Cloud
+### 微服务和Spring Cloud
+
+- 极客时间：[Spring Boot 与 Kubernetes 云原生](https://time.geekbang.org/course/intro/100031401?tab=catalog)
+- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 
 - [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
-- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
+- 
 
 ### Dubbo
 
@@ -322,7 +325,6 @@
 ### K8s
 
 - 《深入剖析Kubernetes》，豆瓣评分9.4，[极客时间电子版](https://time.geekbang.org/column/intro/100015201?tab=catalog)
-- 极客时间：[Spring Boot 与 Kubernetes 云原生](https://time.geekbang.org/course/intro/100031401?tab=catalog)
 
 
 
