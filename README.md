@@ -15,6 +15,7 @@
   - [SpringBoot](#springboot)
   - [MyBatis](#mybatis)
   - [RPC框架,Spring Cloud和微服务](#RPC框架,Spring Cloud和微服务)
+  - [RPC框架,Spring Cloud和微服务](#RPC框架,Spring Cloud和微服务)
   - [Netty](#netty)
   - [Tomcat \& Jetty](#tomcat--jetty)
   - [Nginx](#nginx)
@@ -105,7 +106,7 @@
 
 ## 2 Java
 
-### 虚拟机和字节码
+### RPC框架,Spring Cloud和微服务虚拟机和字节码
 
 - 《深入理解Java虚拟机》，豆瓣评分9.4
 - 《深入理解JVM字节码》，豆瓣评分8.2
