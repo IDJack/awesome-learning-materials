@@ -1,5 +1,5 @@
 # awesome-learning-materials
-# 目录
+- [0 前言](#0-前言)
 - [1 编程语言](#1-编程语言)
   - [C](#c)
   - [Rust](#rust)
@@ -14,13 +14,14 @@
   - [Spring](#spring)
   - [SpringBoot](#springboot)
   - [MyBatis](#mybatis)
-  - [RPC框架和SpringCloud和微服务](#RPC框架和SpringCloud和微服务)
-  - [Netty](#netty)
   - [Tomcat \& Jetty](#tomcat--jetty)
   - [Nginx](#nginx)
+  - [Netty](#netty)
+- [4 分布式系统和大数据框架](#4-分布式系统和大数据框架)
+  - [理论和总览](#理论和总览)
+  - [RPC](#rpc)
+  - [分布式业务系统和微服务](#分布式业务系统和微服务)
   - [监控和压测](#监控和压测)
-- [4 分布式系统\&大数据](#4-分布式系统大数据)
-  - [分布式算法和协议](#分布式算法和协议)
   - [Hadoop](#hadoop)
   - [Spark](#spark)
   - [Flink](#flink)
@@ -32,7 +33,7 @@
   - [MySQL](#mysql)
   - [HBase](#hbase)
   - [Redis](#redis)
-  - [etcd](#etcd)
+  - [Etcd](#etcd)
   - [Elasticsearch](#elasticsearch)
 - [6 NewSQL](#6-newsql)
   - [分布式数据库](#分布式数据库)
@@ -58,6 +59,7 @@
 - [11 架构和系统设计](#11-架构和系统设计)
 - [12 其他](#12-其他)
 
+
 # 正文
 
 ## 0 前言
@@ -66,7 +68,7 @@
 
 1 豆瓣高分书籍，其中大于9分的都是特别好的书，8分以上的书也不错，8分以下的书，选择性读
 
-2 极客时间专栏，极客时间是IT领域很好的知识付费平台，有些课程物超所值
+2 极客时间专栏，极客时间是IT领域很好的知识付费平台
 
 3 官方文档资料，社区和github文档等
 
@@ -75,6 +77,8 @@
 5 公开课
 
 6 论文
+
+
 
 ## 1 编程语言
 
@@ -102,6 +106,8 @@
 ### Scala
 
 - 视频：[尚硅谷大数据技术之Scala入门到精通教程](https://www.bilibili.com/video/BV1Xh411S7bP)
+
+  
 
 ## 2 Java
 
@@ -131,7 +137,6 @@
 
   
   
-  
 
 ## 3 Java服务端开发
 
@@ -142,8 +147,6 @@
 - 视频：[尚硅谷Spring注解驱动教程(雷丰阳源码级讲解)](https://www.bilibili.com/video/BV1gW411W7wy)
 - [spring文档](https://docs.spring.io/spring-framework/docs/current/reference/html/)
 
-
-
 ### SpringBoot
 
 - 视频：[【尚硅谷】SpringBoot2零基础入门教程](https://www.bilibili.com/video/BV19K4y1L7MT) 尚硅谷雷丰阳
@@ -152,27 +155,19 @@
 
 - [springboot文档](https://docs.spring.io/spring-boot/docs/current/reference/html/)
 
-
-
 ### MyBatis
 
 - 《通用源码阅读指导书――MyBatis源码详解》，豆瓣评分8.2
 
 
+### Tomcat & Jetty
 
-### RPC框架和SpringCloud和微服务
+- 极客时间：[深入拆解 Tomcat & Jetty](https://time.geekbang.org/column/intro/100027701?tab=catalog)
 
-- 极客时间：[RPC 实战与核心原理](https://time.geekbang.org/column/intro/100046201?tab=catalog)
-- 极客时间：[从 0 开始学微服务](https://time.geekbang.org/column/intro/100014401?tab=catalog)
+### Nginx
 
-- 极客时间：[Dubbo 源码剖析与实战](https://time.geekbang.org/column/intro/100312101?tab=catalog)
-
-- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
-- [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
-- [Spring Cloud Alibaba Reference Documentation](https://spring-cloud-alibaba-group.github.io/github-pages/2021/en-us/index.html)
-- 极客时间：[Spring Boot 与 Kubernetes 云原生微服务实战](https://time.geekbang.org/course/intro/100031401?tab=catalog)
-
-
+- 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
+- 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
 
 ### Netty
 
@@ -181,18 +176,38 @@
 
 
 
-### Tomcat & Jetty
+## 4 分布式系统和大数据框架
 
-- 极客时间：[深入拆解 Tomcat & Jetty](https://time.geekbang.org/column/intro/100027701?tab=catalog)
+### 理论和总览
+
+- 极客时间：[分布式协议与算法实战](https://time.geekbang.org/column/intro/100046101?tab=catalog)
+- 极客时间：[分布式技术原理与算法解析](https://time.geekbang.org/column/intro/100036401?tab=catalog)
+
+- 极客时间：[大数据经典论文解读](https://time.geekbang.org/column/intro/100091101?tab=catalog)
+
+- 极客时间：[深入浅出分布式技术原理](https://time.geekbang.org/column/intro/100104701?tab=intro)
+
+- 《大数据日知录》，豆瓣评分8.3
+
+- MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
 
 
-### Nginx
+### RPC
 
-- 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
-- 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
+- 极客时间：[RPC 实战与核心原理](https://time.geekbang.org/column/intro/100046201?tab=catalog)
+- 极客时间：[Dubbo 源码剖析与实战](https://time.geekbang.org/column/intro/100312101?tab=catalog)
+- 极客时间：[深入浅出 gRPC](https://time.geekbang.org/column/intro/100005601?tab=catalog)
 
 
+
+### 分布式业务系统和微服务
+
+- 极客时间：[从 0 开始学微服务](https://time.geekbang.org/column/intro/100014401?tab=catalog)
+- [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
+- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
+- [Spring Cloud Alibaba Reference Documentation](https://spring-cloud-alibaba-group.github.io/github-pages/2021/en-us/index.html)
+- 极客时间：[Spring Boot 与 Kubernetes 云原生微服务实战](https://time.geekbang.org/course/intro/100031401?tab=catalog)
 
 ### 监控和压测
 
@@ -200,17 +215,6 @@
 - 极客时间：[全链路压测实战 30 讲](https://time.geekbang.org/column/intro/100093001?tab=catalog)
 
 
-
-## 4 分布式系统&大数据
-
-### 分布式算法和协议
-
-- 极客时间：[分布式协议与算法实战](https://time.geekbang.org/column/intro/100046101?tab=catalog)
-- 极客时间：[分布式技术原理与算法解析](https://time.geekbang.org/column/intro/100036401?tab=catalog)
-
-- 极客时间：[大数据经典论文解读](https://time.geekbang.org/column/intro/100091101?tab=catalog)
-
-- MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
 ### Hadoop
 
@@ -220,8 +224,6 @@
 
 - 极客时间：[零基础入门 Spark](https://time.geekbang.org/column/intro/100090001?tab=catalog)
 - 极客时间：[Spark 性能调优实战](https://time.geekbang.org/column/intro/100073401?tab=catalog)
-
-
 
 ### Flink
 
@@ -234,8 +236,6 @@
 ### Kafka
 
 - 《深入理解Kafka：核心设计与实践原理》，豆瓣评分8.8
-
-
 
 ### RocketMQ
 
@@ -277,7 +277,7 @@
 
   
 
-### etcd
+### Etcd
 
 - 极客时间：[etcd 实战课](https://time.geekbang.org/column/intro/100069901?tab=catalog)
 
@@ -313,7 +313,10 @@
 ### Linux系统编程
 
 - 《Unix环境高级编程》，豆瓣评分9.7
+
 - 《Unix网络编程》一二卷，豆瓣评分9.5
+
+  
 
 ## 8 云
 
@@ -332,8 +335,6 @@
 
 
 ## 9 计算机基础
-
-
 
 ### 算法和数据结构
 
@@ -386,8 +387,6 @@
 ### 深度学习
 
 - B站有吴恩达，李沐等人的深度学习课程
-
-
 
 ### 推荐算法
 
