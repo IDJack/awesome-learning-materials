@@ -16,12 +16,12 @@
   - [MyBatis](#mybatis)
   - [Tomcat \& Jetty](#tomcat--jetty)
   - [Nginx](#nginx)
+  - [HTTP](#http)
   - [Netty](#netty)
 - [4 分布式系统和大数据框架](#4-分布式系统和大数据框架)
   - [理论和总览](#理论和总览)
   - [RPC](#rpc)
   - [分布式业务系统和微服务](#分布式业务系统和微服务)
-  - [监控和压测](#监控和压测)
   - [Hadoop](#hadoop)
   - [Spark](#spark)
   - [Flink](#flink)
@@ -29,6 +29,7 @@
   - [Kafka](#kafka)
   - [RocketMQ](#rocketmq)
 - [5 数据库](#5-数据库)
+- [理论](#理论)
   - [SQL](#sql)
   - [MySQL](#mysql)
   - [HBase](#hbase)
@@ -44,7 +45,7 @@
 - [8 云](#8-云)
   - [云计算](#云计算)
   - [容器和docker](#容器和docker)
-  - [K8s](#k8s)
+  - [K8s和Service Mesh](#k8s和service-mesh)
 - [9 计算机基础](#9-计算机基础)
   - [算法和数据结构](#算法和数据结构)
   - [网络](#网络)
@@ -58,17 +59,24 @@
   - [推荐算法](#推荐算法)
 - [11 架构和系统设计](#11-架构和系统设计)
 - [12 其他](#12-其他)
-
+- [14 未学](#14-未学)
+  - [前端](#前端)
+  - [Serverless](#serverless)
+  - [高并发系统调优和案例](#高并发系统调优和案例)
+  - [监控压测](#监控压测)
+  - [工具](#工具)
 
 # 正文
 
 ## 0 前言
 
+本学习大纲主要侧重于Java后端，分布式系统，大数据，数据库和云计算
+
 学习新知识时，我一般会学习如下学习资料：
 
 1 豆瓣高分书籍，其中大于9分的都是特别好的书，8分以上的书也不错，8分以下的书，选择性读
 
-2 极客时间专栏，极客时间是IT领域很好的知识付费平台
+2 极客时间专栏，极客时间是IT领域很好的知识付费平台，活动时买个超级会员，可以观看所有专栏
 
 3 官方文档资料，社区和github文档等
 
@@ -105,6 +113,8 @@
 
 ### Scala
 
+- 《快学Scala（第2版）》，豆瓣评分8.3
+
 - 视频：[尚硅谷大数据技术之Scala入门到精通教程](https://www.bilibili.com/video/BV1Xh411S7bP)
 
   
@@ -115,6 +125,7 @@
 
 - 《深入理解Java虚拟机》，豆瓣评分9.4
 - 《深入理解JVM字节码》，豆瓣评分8.2
+- 《实战Java虚拟机：JVM故障诊断与性能优化》，豆瓣评分8.3
 - 极客时间：[深入拆解 Java 虚拟机](https://time.geekbang.org/column/intro/100010301?tab=catalog)
 
 ### 多线程
@@ -146,6 +157,7 @@
 - 《Spring揭秘》 豆瓣评分9.2
 - 视频：[尚硅谷Spring注解驱动教程(雷丰阳源码级讲解)](https://www.bilibili.com/video/BV1gW411W7wy)
 - [spring文档](https://docs.spring.io/spring-framework/docs/current/reference/html/)
+- 极客时间：[玩转 Spring 全家桶](https://time.geekbang.org/course/intro/100023501?tab=catalog)
 
 ### SpringBoot
 
@@ -169,6 +181,11 @@
 - 视频：[尚硅谷Nginx教程](https://www.bilibili.com/video/BV1yS4y1N76R)
 - 极客时间：[Nginx 核心知识 150 讲](https://time.geekbang.org/course/intro/100020301?tab=catalog)
 
+### HTTP
+
+- 极客时间：[透视 HTTP 协议](https://time.geekbang.org/column/intro/100029001?tab=catalog)
+- 极客时间：[Web 协议详解与抓包实战](https://time.geekbang.org/course/intro/100026801?tab=catalog)
+
 ### Netty
 
 - 《Netty实战》，豆瓣评分7.5
@@ -180,20 +197,23 @@
 
 ### 理论和总览
 
+- 《大数据日知录》，豆瓣评分8.3
+- MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
+
 - 极客时间：[分布式协议与算法实战](https://time.geekbang.org/column/intro/100046101?tab=catalog)
+
 - 极客时间：[分布式技术原理与算法解析](https://time.geekbang.org/column/intro/100036401?tab=catalog)
 
 - 极客时间：[大数据经典论文解读](https://time.geekbang.org/column/intro/100091101?tab=catalog)
 
 - 极客时间：[深入浅出分布式技术原理](https://time.geekbang.org/column/intro/100104701?tab=intro)
 
-- 《大数据日知录》，豆瓣评分8.3
-
-- MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
-
-
+  
 
 ### RPC
+
+- 《架构探险：从零开始写分布式服务架构》
+- 《分布式服务框架原理与实践》
 
 - 极客时间：[RPC 实战与核心原理](https://time.geekbang.org/column/intro/100046201?tab=catalog)
 - 极客时间：[Dubbo 源码剖析与实战](https://time.geekbang.org/column/intro/100312101?tab=catalog)
@@ -203,16 +223,12 @@
 
 ### 分布式业务系统和微服务
 
-- 极客时间：[从 0 开始学微服务](https://time.geekbang.org/column/intro/100014401?tab=catalog)
 - [springcloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
-- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
 - [Spring Cloud Alibaba Reference Documentation](https://spring-cloud-alibaba-group.github.io/github-pages/2021/en-us/index.html)
+- 极客时间：spring cloud Alibaba：[Spring Cloud 微服务项目实战](https://time.geekbang.org/column/intro/100101301?tab=catalog)
+- 极客时间：[从 0 开始学微服务](https://time.geekbang.org/column/intro/100014401?tab=catalog)
 - 极客时间：[Spring Boot 与 Kubernetes 云原生微服务实战](https://time.geekbang.org/course/intro/100031401?tab=catalog)
-
-### 监控和压测
-
-- 极客时间：[运维监控系统实战笔记](https://time.geekbang.org/column/intro/100522501?tab=catalog)
-- 极客时间：[全链路压测实战 30 讲](https://time.geekbang.org/column/intro/100093001?tab=catalog)
+- 极客时间：[微服务架构实战 160 讲](https://time.geekbang.org/course/intro/100007001?tab=catalog)
 
 
 
@@ -221,6 +237,9 @@
 - 《Hadoop》权威指南，豆瓣评分7.7
 
 ### Spark
+
+- 《大数据处理框架Apache Spark设计与实现》，豆瓣评分9.3
+- 《Spark SQL内核剖析》，豆瓣评分7.9
 
 - 极客时间：[零基础入门 Spark](https://time.geekbang.org/column/intro/100090001?tab=catalog)
 - 极客时间：[Spark 性能调优实战](https://time.geekbang.org/column/intro/100073401?tab=catalog)
@@ -232,6 +251,7 @@
 ### Zookeeper
 
 - 《从Paxos到Zookeeper》，豆瓣评分7.8
+- 极客时间：[ZooKeeper 实战与源码剖析](https://time.geekbang.org/course/intro/100034201?tab=catalog)
 
 ### Kafka
 
@@ -243,11 +263,14 @@
 
 ## 5 数据库
 
+## 理论
+
+- 《数据库系统概念》，豆瓣评分8.5
+- 《数据库系统实现》，豆瓣评分8.7
+
 ### SQL
 
 - 极客时间：[SQL 必知必会](https://time.geekbang.org/column/intro/100029501?tab=catalog)
-
-
 
 ### MySQL
 
@@ -257,13 +280,9 @@
 
 - 极客时间：[MySQL 实战 45 讲](https://time.geekbang.org/column/intro/100020801?tab=catalog)
 
-
-
 ### HBase
 
 - 《HBase原理与实践》，豆瓣评分9.0
-
-
 
 ### Redis
 
@@ -275,7 +294,6 @@
 
 - 《Redis开发与运维》，豆瓣评分9.0
 
-  
 
 ### Etcd
 
@@ -284,9 +302,10 @@
 ### Elasticsearch
 
 - 《Elasticsearch实战》，豆瓣评分7.3
+
 - 极客时间：[Elasticsearch 核心技术与实战](https://time.geekbang.org/course/intro/100030501?tab=catalog)
 
-
+  
 
 ## 6 NewSQL
 
@@ -294,21 +313,20 @@
 
 - 极客时间：[分布式数据库 30 讲](https://time.geekbang.org/column/intro/100057401?tab=catalog)
 
-
-
 ### TiDB
 
 - 视频：[PingCAP课程中心](https://learn.pingcap.com/learner/course)
 
-
+  
 
 ## 7 Linux
 
 ### Linux使用
 
 - 极客时间：[Linux 性能优化实战](https://time.geekbang.org/column/intro/100020901?tab=catalog)
+- 极客时间：[网络排查案例课](https://time.geekbang.org/column/intro/100104301?tab=catalog)
 
-
+- 极客时间：[eBPF 核心技术与实战](https://time.geekbang.org/column/intro/100104501?tab=catalog)
 
 ### Linux系统编程
 
@@ -328,9 +346,13 @@
 
 - 极客时间：[容器实战高手课](https://time.geekbang.org/column/intro/100063801?tab=catalog)
 
-### K8s
+### K8s和Service Mesh
 
 - 《深入剖析Kubernetes》，豆瓣评分9.4，[极客时间电子版](https://time.geekbang.org/column/intro/100015201?tab=catalog)
+- 《Kubernetes生产化实践之路》，豆瓣评分8.0
+
+- 极客时间：[Service Mesh 实战](https://time.geekbang.org/course/intro/100049401?tab=catalog)
+- 
 
 
 
@@ -351,6 +373,8 @@
 
 
 ### 操作系统和计算机组成原理
+
+- 《现代操作系统》，豆瓣9.0，公开课网址：https://ipads.se.sjtu.edu.cn/ospi/
 
 - 极客时间：[计算机基础实战课](https://time.geekbang.org/column/intro/100117801?tab=catalog)
 - 极客时间：[深入浅出计算机组成原理](https://time.geekbang.org/column/intro/100026001?tab=catalog)
@@ -378,6 +402,8 @@
 
 ### 数据分析
 
+- 《利用Python进行数据分析》，豆瓣评分8.6
+
 - 极客时间：[数据分析实战 45 讲](https://time.geekbang.org/column/intro/100021701?tab=catalog)
 
 ### 机器学习
@@ -400,6 +426,7 @@
 - 《数据密集型应用系统设计》，豆瓣评分9.6
 
 - 《凤凰架构》，豆瓣评分9.3，http://icyfenix.cn/
+- 《微服务架构设计模式》，豆瓣评分9.0
 - 极客时间：[从 0 开始学架构](https://time.geekbang.org/column/intro/100006601?tab=catalog)
 - 极客时间：[设计模式之美](https://time.geekbang.org/column/intro/100039001?tab=catalog)
 
@@ -410,4 +437,51 @@
 - 极客时间：[左耳听风](https://time.geekbang.org/column/intro/100002201?tab=catalog)
 - 极客时间：[技术与商业案例解读](https://time.geekbang.org/column/intro/100001901?tab=catalog)
 - 极客时间：[说透芯片](https://time.geekbang.org/column/intro/100079201?tab=catalog)
+
+
+
+
+
+## 14 未学
+
+### 前端
+
+- 极客时间：[重学前端](https://time.geekbang.org/column/intro/100023201?tab=catalog)
+- 极客时间：[JavaScript 进阶实战课](https://time.geekbang.org/column/intro/100122101?tab=catalog)
+- 极客时间：[Vue 开发实战](https://time.geekbang.org/course/intro/100024601)
+- 极客时间：[玩转 Vue 3 全家桶](https://time.geekbang.org/column/intro/100094401?tab=catalog)
+- 极客时间：[现代 React Web 开发实战](https://time.geekbang.org/column/intro/100119601?tab=catalog)
+- 极客时间：[React Native 新架构实战课](https://time.geekbang.org/column/intro/100110101?tab=catalog)
+- 极客时间：[微信小程序全栈开发实战](https://time.geekbang.org/course/intro/100052401?tab=catalog)
+
+- 极客时间：[全栈工程师修炼指南](https://time.geekbang.org/column/intro/100035501?tab=catalog)
+
+  
+
+### Serverless
+
+- 极客时间：[Serverless 入门课](https://time.geekbang.org/column/intro/100050201?tab=catalog)
+
+- 极客时间：[Serverless 进阶实战课](https://time.geekbang.org/column/intro/100119701?tab=catalog)
+
+### 高并发系统调优和案例
+
+- 极客时间：[高并发架构实战课](https://time.geekbang.org/column/intro/100105701?tab=catalog)
+- 极客时间：[高并发系统实战课](https://time.geekbang.org/column/intro/100309001?tab=catalog)
+- 极客时间：[性能工程高手课](https://time.geekbang.org/column/intro/100041101?tab=catalog)
+- 极客时间：[系统性能调优必知必会](https://time.geekbang.org/column/intro/100051201?tab=catalog)
+- 极客时间：[手把手带你搭建秒杀系统](https://time.geekbang.org/column/intro/100091501?tab=catalog)
+- 极客时间：[如何设计一个秒杀系统](https://time.geekbang.org/column/intro/100017501?tab=catalog)
+- 极客时间：[即时消息技术剖析与实战](https://time.geekbang.org/column/intro/100034901?tab=catalog)
+
+### 监控压测
+
+- 极客时间：[运维监控系统实战笔记](https://time.geekbang.org/column/intro/100522501?tab=catalog)
+- 极客时间：[全链路压测实战 30 讲](https://time.geekbang.org/column/intro/100093001?tab=catalog)
+- 极客时间：[容量保障核心技术与实战](https://time.geekbang.org/column/intro/100078501?tab=catalog)
+
+### 工具
+
+- 极客时间：[玩转 Git 三剑客](https://time.geekbang.org/course/intro/100021601?tab=catalog)
+- 极客时间：[Vim 实用技巧必知必会](https://time.geekbang.org/column/intro/100055801?tab=catalog)
 
