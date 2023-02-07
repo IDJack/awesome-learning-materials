@@ -444,6 +444,8 @@
 ## 13 博客
 
 - 美团技术博客：https://tech.meituan.com/
+- 陈皓：https://coolshell.cn/
+- 廖雪峰：https://www.liaoxuefeng.com/
 
 
 
