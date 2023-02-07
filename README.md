@@ -2,6 +2,7 @@
 - [0 前言](#0-前言)
 - [1 编程语言](#1-编程语言)
   - [C](#c)
+  - [C++](#c++)
   - [Rust](#rust)
   - [Go](#go)
   - [Python](#python)
@@ -95,6 +96,10 @@
 
 - 《Linux C一站式编程》，豆瓣评分9.0
 - 极客时间：[深入 C 语言和程序运行原理](https://time.geekbang.org/column/intro/100100701?tab=catalog)
+
+### C++
+
+- 《Accelerated C++》，豆瓣评分9.1
 
 ### Rust
 
@@ -445,6 +450,7 @@
 
 - 美团技术博客：https://tech.meituan.com/
 - 陈皓：https://coolshell.cn/
+- 四火的唠叨：https://www.raychase.net/
 - 廖雪峰：https://www.liaoxuefeng.com/
 
 
