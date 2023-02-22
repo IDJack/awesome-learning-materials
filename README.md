@@ -9,7 +9,7 @@
   - [Scala](#scala)
 - [2 Java](#2-java)
   - [虚拟机和字节码](#虚拟机和字节码)
-  - [多线程](#多线程)
+  - [多线程和异步编程](#多线程和异步编程)
   - [其他](#其他)
 - [3 Java服务端开发](#3-java服务端开发)
   - [Spring](#spring)
@@ -100,15 +100,20 @@
 ### Cpp
 
 - 《Accelerated C++》，豆瓣评分9.1
+- 《C++ Primer 中文版（第 5 版）》，豆瓣评分9.5
+- 《Effective C++》，豆瓣评分9.4
+- 《现代C++语言核心特性解析》，豆瓣评分9.5
 
 ### Rust
 
-- 视频：[Rust编程语言入门教程](https://www.bilibili.com/video/BV1hp4y1k7SV)
 - 官方书籍：[The Rust Programming Language](https://doc.rust-lang.org/book/)
 
+- 视频：[Rust编程语言入门教程](https://www.bilibili.com/video/BV1hp4y1k7SV)
 - 极客时间：[陈天 · Rust 编程第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog)
 
 ### Go
+
+- 《Go专家编程》，豆瓣评分9.2
 
 - 视频：[Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
 - 极客时间：[Tony Bai · Go 语言第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog)
@@ -134,10 +139,11 @@
 - 《实战Java虚拟机：JVM故障诊断与性能优化》，豆瓣评分8.3
 - 极客时间：[深入拆解 Java 虚拟机](https://time.geekbang.org/column/intro/100010301?tab=catalog)
 
-### 多线程
+### 多线程和异步编程
 
 - 《Java并发编程实战》，豆瓣评分9.0
 - 《Java并发实现原理：JDK源码剖析》，豆瓣评分8.0
+- 《Java异步编程实战》，豆瓣7.8
 - 极客时间：[Java 并发编程实战](https://time.geekbang.org/column/intro/100023901?tab=catalog)
 
 ### 其他
@@ -514,5 +520,3 @@
 
 - 极客时间：[玩转 Git 三剑客](https://time.geekbang.org/course/intro/100021601?tab=catalog)
 - 极客时间：[Vim 实用技巧必知必会](https://time.geekbang.org/column/intro/100055801?tab=catalog)
-
-i
