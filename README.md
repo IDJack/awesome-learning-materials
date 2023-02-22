@@ -27,8 +27,8 @@
   - [Spark](#spark)
   - [Flink](#flink)
   - [Zookeeper](#zookeeper)
-  - [Kafka](#kafka)
-  - [RocketMQ](#rocketmq)
+  - [消息队列Kafka和RocketMQ](#消息队列Kafka和RocketMQ)
+  - [分布式机器学习](#分布式机器学习)
 - [5 数据库](#5-数据库)
   - [理论](#理论)
   - [SQL](#sql)
@@ -203,6 +203,8 @@
 
 ### 理论和总览
 
+- 《深入理解分布式系统》，豆瓣评分9.3
+
 - 《大数据日知录》，豆瓣评分8.3
 - MIT6.824：http://nil.csail.mit.edu/6.824/2020/schedule.html
 
@@ -261,11 +263,15 @@
 - 《从Paxos到Zookeeper》，豆瓣评分7.8
 - 极客时间：[ZooKeeper 实战与源码剖析](https://time.geekbang.org/course/intro/100034201?tab=catalog)
 
-### Kafka
+### 消息队列Kafka和RocketMQ
 
 - 《深入理解Kafka：核心设计与实践原理》，豆瓣评分8.8
 
-### RocketMQ
+
+
+### 分布式机器学习
+
+- 《分布式机器学习：算法、理论与实践》，豆瓣评分8.8
 
 
 
@@ -291,6 +297,7 @@
 ### HBase
 
 - 《HBase原理与实践》，豆瓣评分9.0
+- 《HBase权威指南》，豆瓣评分8.1
 
 ### Redis
 
@@ -324,6 +331,10 @@
 ### TiDB
 
 - 视频：[PingCAP课程中心](https://learn.pingcap.com/learner/course)
+
+- 博客：https://cn.pingcap.com/blog/
+
+- 社区：https://tidb.net/
 
   
 
@@ -375,6 +386,8 @@
 
 ### 网络
 
+- 《计算机网络：自顶向下方法》，豆瓣8.9
+
 - 极客时间：[趣谈网络协议](https://time.geekbang.org/column/intro/100007101?tab=catalog)
 - 极客时间：[网络编程实战](https://time.geekbang.org/column/intro/100032701?tab=catalog)
 
@@ -383,6 +396,8 @@
 ### 操作系统和计算机组成原理
 
 - 《现代操作系统》，豆瓣9.0，公开课网址：https://ipads.se.sjtu.edu.cn/ospi/
+
+- 《深入理解计算机系统》，豆瓣9.7
 
 - 极客时间：[计算机基础实战课](https://time.geekbang.org/column/intro/100117801?tab=catalog)
 - 极客时间：[深入浅出计算机组成原理](https://time.geekbang.org/column/intro/100026001?tab=catalog)
