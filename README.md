@@ -114,6 +114,7 @@
 ### Go
 
 - 《Go专家编程》，豆瓣评分9.2
+-  《The Go Programming Language》 ，豆瓣9.6，[中文电子版](https://gopl-zh.github.io/)
 
 - 视频：[Go语言编程快速入门](https://www.bilibili.com/video/BV1fD4y1m7TD)
 - 极客时间：[Tony Bai · Go 语言第一课](https://time.geekbang.org/column/intro/100085301?tab=catalog)
