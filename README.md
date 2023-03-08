@@ -445,7 +445,7 @@
 ### 推荐算法
 
 - 《推荐系统实战》，豆瓣评分8.1
-- 极客时间：[深度学习推荐系统实战](https://time.geekbang.org/column/intro/100060801?tab=catalog)
+- 《深度学习推荐系统》，豆瓣评分9.4，极客时间版本：[深度学习推荐系统实战](https://time.geekbang.org/column/intro/100060801?tab=catalog)
 
 
 
