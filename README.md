@@ -427,7 +427,8 @@
 
 ### AI中的数学基础
 
-- 视频：[线性代数的本质](https://www.bilibili.com/video/BV1ib411t7YR) 
+- 视频：[线性代数的本质](https://www.bilibili.com/video/BV1ys411472E) 
+- [3Blue1Brown](https://space.bilibili.com/88461692/channel/series)
 
 ### 数据分析
 
