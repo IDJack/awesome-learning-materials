@@ -69,7 +69,7 @@
   - [监控压测](#监控压测)
   - [工具](#工具)
   - [Cpp](Cpp)
-- [15 生成式AI和ChatGPT](#15 生成式AI和ChatGPT)
+- [15 生成式AI和ChatGPT](#15-生成式AI和ChatGPT)
 
 # 正文
 
