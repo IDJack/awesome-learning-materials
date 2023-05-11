@@ -69,6 +69,7 @@
   - [监控压测](#监控压测)
   - [工具](#工具)
   - [Cpp](Cpp)
+- [15 生成式AI和ChatGPT](#15 生成式AI和ChatGPT)
 
 # 正文
 
@@ -533,3 +534,83 @@
 - 《C++ Primer 中文版（第 5 版）》，豆瓣评分9.5
 - 《Effective C++》，豆瓣评分9.4
 - 《现代C++语言核心特性解析》，豆瓣评分9.5
+
+
+
+## 15 生成式AI和ChatGPT
+
+以下分为科普入门，Prompt，代码实战，Python第三方库，Java开发，相关AIGC工具使用，论文解读和AI学习展开介绍。持续更新中。。
+
+
+
+### AIGC和ChatGPT科普入门
+
+- 李宏毅生成式AI课程：https://www.bilibili.com/video/BV19c411E7Kd
+- ChatGPT 从 0 到 1：https://time.geekbang.org/opencourse/videointro/100541101
+- ChatGPT 和预训练模型实战课：https://time.geekbang.org/opencourse/videointro/100541201
+
+
+
+### Prompt
+
+- 吴恩达联合OpenAI推出的ChatGPT Prompt engineering课程
+  - https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction
+  - B站中文翻译：https://www.bilibili.com/video/BV1No4y1t7Zn
+  - 课程代码：[https://github.com/IDJack/deeplearning_chatgpt_prompt](https://link.zhihu.com/?target=https%3A//github.com/IDJack/deeplearning_chatgpt_prompt)
+- FlowGPT：https://flowgpt.com/ 
+- GitHub两个高star项目：
+  - https://github.com/f/awesome-chatgpt-prompts
+  - https://github.com/PlexPt/awesome-chatgpt-prompts-zh
+
+
+
+### 代码实践
+
+- AI大模型之美：http://gk.link/a/122Gb
+  - 课程代码：[https://github.com/xuwenhao/geektime-ai-course](https://link.zhihu.com/?target=https%3A//github.com/xuwenhao/geektime-ai-course)
+- openai-cookbook：https://github.com/openai/openai-cookbook
+- OpenAI官网文档：https://platform.openai.com/docs/introduction
+
+
+
+### Python第三方库
+
+- Huggingface transformers: https://github.com/huggingface/transformers
+
+- LangChain: https://python.langchain.com/en/latest/index.html
+- LlamaIndex (GPT Index)：https://github.com/jerryjliu/llama_index
+
+
+
+### Java OpenAI库
+
+- Java封装OpenAI API客户端
+  - https://github.com/Grt1228/chatgpt-java
+  - https://github.com/PlexPt/chatgpt-java
+- SpringBoot Demo
+  - https://github.com/Grt1228/chatgpt-steam-output
+  - https://github.com/hncboy/chatgpt-web-java
+
+
+
+### AIGC工具使用
+
+- GitHub Copilot 实践课：https://time.geekbang.org/opencourse/videointro/100540901
+- Stable Diffusion：零基础学会AI绘画：https://time.geekbang.org/opencourse/videointro/100541301
+- Midjourney AI 绘画：从入门到精通系列课：https://www.bilibili.com/video/BV1XA411o7Cs
+
+
+
+### 论文解读
+
+- 李沐老师讲解 GPT 系列论文的视频 GPT、GPT-2、GPT-3 论文精读：https://www.bilibili.com/video/BV1AF411b7xQ
+- DALL·E 2（内含扩散模型介绍）【论文精读】：https://www.bilibili.com/video/BV17r4y1u77B
+- Huggingface GitHub仓库论文列表 ：https://github.com/huggingface/transformers#model-architectures
+
+
+
+### AI学习
+
+- 跟李沐学AI：https://space.bilibili.com/1567748478/channel/series
+- B站搜李宏毅的课程
+
